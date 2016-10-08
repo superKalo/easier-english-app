@@ -1,0 +1,20 @@
+{
+    "folders":
+    [
+        {
+            "file_exclude_patterns":
+            [
+                "*.min.*",
+                "*.map"
+            ],
+            "folder_exclude_patterns":
+            [
+                ".sass-cache",
+                "node_modules",
+                "dist"
+            ],
+            "binary_file_patterns": ["*.jpg", "*.jpeg", "*.png", "*.gif", "*.ttf", "*.tga", "*.dds", "*.ico", "*.eot", "*.pdf", "*.swf", "*.jar", "*.zip"],
+            "path": "."
+        }
+    ]
+}
