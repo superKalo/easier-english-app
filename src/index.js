@@ -27,6 +27,8 @@ import store, { history } from './store';
 // import {requireAuthentication} from './components/Auth/AuthenticatedComponent';
 
 import LoginPage from './containers/LoginPage';
+import Dashboard from './containers/Dashboard';
+
 
 const router = (
     <Provider store={store}>
@@ -34,6 +36,8 @@ const router = (
 
             <Route path='/'>
                 <IndexRoute component={LoginPage} />
+
+                <Route path="dashboard" component={Dashboard} />
             </Route>
 
         </Router>
