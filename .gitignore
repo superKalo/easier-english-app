@@ -117,3 +117,7 @@ jspm_packages
 
 ### Project Specific ###
 dist/
+src/config.jsx
+
+# production
+build
