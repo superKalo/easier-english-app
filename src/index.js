@@ -40,4 +40,4 @@ const router = (
     </Provider>
 );
 
-ReactDOM.render(router, document.getElementById('app'));
+ReactDOM.render(router, document.getElementById('root'));

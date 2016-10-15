@@ -46,13 +46,15 @@ export const history = syncHistoryWithStore(browserHistory, store);
  * Enable Hot Reloading for the reducers
  * We re-require() the reducers whenever any new code has been written.
  * Webpack will handle the rest
+ *
+ * TODO: Figure-out how to enable the hot reloading
  */
-if (module.hot) {
-    module.hot.accept('./containers/', () => {
-        const nextRootReducer = require('./reducers').default;
+// if (module.hot) {
+//     module.hot.accept('./containers/', () => {
+//         const nextRootReducer = require('./reducers').default;
 
-        store.replaceReducer(nextRootReducer);
-    });
-}
+//         store.replaceReducer(nextRootReducer);
+//     });
+// }
 
 export default store;
